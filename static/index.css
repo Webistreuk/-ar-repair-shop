@@ -35,7 +35,8 @@ body {
     z-index: 3;
 }
 
-.container-page .header .Main p , .Personal-account p {
+.container-page .header .Main a , .Personal-account p {
+    text-decoration: none;
     font-weight: 700;
     font-size: 30px;
     line-height: 70%;
@@ -47,6 +48,7 @@ body {
 }
 
 .container-page .header .Shopping-cart p , .Repair p {
+    text-decoration: none;
     font-weight: 620;
     font-size: 26px;
     line-height: 60%;
@@ -58,6 +60,7 @@ body {
 }
 
 .container-page .header .News p, .Prices p {
+    text-decoration: none;
     font-weight: 700;
     font-size: 24px;
     line-height: 50%;
@@ -69,6 +72,7 @@ body {
 }
 
 .container-page .header .Online-registration p, .Discounts p {
+    text-decoration: none;
     font-weight: 700;
     font-size: 22px;
     line-height: 40%;
@@ -80,6 +84,7 @@ body {
 }
 
 .container-page .header .Reviews p, .Contacts p {
+    text-decoration: none;
     font-weight: 700;
     font-size: 20px;
     line-height: 30%;
@@ -90,10 +95,11 @@ body {
     border-radius: 26px;
 }
 
-.container-page .header .About-us p, .Ours-works p {
+.container-page .header .About-us a , .Ours-works p {
+    text-decoration: none;
     font-weight: 700;
     font-size: 18px;
-    line-height: 20%;
+    line-height: 100%;
     color: black;
     background: linear-gradient(120deg, #535353, rgb(233, 233, 233));
     border: 2px solid #2c3e50 !important;
