@@ -32,4 +32,5 @@ urlpatterns = [
     path('prices/', views.prices, name='Цены'),
     path('repair/', views.repair, name='Ремонт'),
     path('reviews/', views.reviews, name='Отзывы'),
+    path('shopping-cart/', views.shopping_cart, name='Корзина'),
 ]
