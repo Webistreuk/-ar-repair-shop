@@ -12,7 +12,7 @@ body {
     background-color: rgb(241, 234, 234);
     margin: 20px auto;
     width: 100%;
-    height: 768px;
+    height: 1768px;
     max-width: 1800px;
     top: -394.2px;
     left: 11844px;
@@ -39,7 +39,7 @@ body {
     font-weight: 700;
     font-size: 30px;
     line-height: 70%;
-    background: linear-gradient(45deg, #ffffff, #a6ff00);
+    background: linear-gradient(45deg, #ffffff, #080808);
     color: black;
     border: 5px solid #2c3e50 !important;
     padding: 12px;
@@ -50,7 +50,7 @@ body {
     font-weight: 620;
     font-size: 26px;
     line-height: 60%;
-    background: linear-gradient(45deg, #ffffff, #0099ffd2);
+    background: linear-gradient(45deg, #313131, #ffffffd2);
     color: black;
     border: 3px solid #2c3e50 !important;
     padding: 9px;
@@ -62,7 +62,7 @@ body {
     font-size: 24px;
     line-height: 50%;
     color: black;
-    background: linear-gradient(75deg, #ffffff, #00ffbf7e);
+    background: linear-gradient(75deg, #f7f7f7, #3b3b3b);
     border: 4px solid #2c3e50 !important;
     padding: 8px;
     border-radius: 26px;
@@ -73,7 +73,7 @@ body {
     font-size: 22px;
     line-height: 40%;
     color: black;
-    background: linear-gradient(90deg, #ffffff, #ffd000);
+    background: linear-gradient(90deg, #494949, #f0f0f0);
     border: 2px solid #2c3e50 !important;
     padding: 7px;
     border-radius: 9px;
@@ -83,7 +83,7 @@ body {
     font-weight: 700;
     font-size: 20px;
     line-height: 30%;
-    background: linear-gradient(105deg, #ffffff, #ff6600);
+    background: linear-gradient(105deg, #eeeeee, #444444);
     color: black;
     border: 4px solid #2c3e50 !important;
     padding: 6px;
@@ -95,7 +95,7 @@ body {
     font-size: 18px;
     line-height: 20%;
     color: black;
-    background: linear-gradient(120deg, #ffffff, #ff0000);
+    background: linear-gradient(120deg, #535353, rgb(233, 233, 233));
     border: 2px solid #2c3e50 !important;
     padding: 6px;
     border-radius: 8px;
@@ -135,7 +135,7 @@ body {
 .container-page .Name-Site .Napoleon-l {
     font-size: 53px;
     font-weight: 600;
-    margin-top: 2.5px;
+    margin-top: 4px;
 }
 
 .container-page .Name-Site .Napoleon-e {
@@ -147,53 +147,53 @@ body {
 .container-page .Name-Site .Napoleon-2-o {
     font-size: 42px;
     font-weight: 600;
-    margin-top: 2px;
+    margin-top: 5px;
 }
 
 .container-page .Name-Site .Napoleon-n {
     font-size: 31px;
     font-weight: 600;
-    margin-top: 10px;
+    margin-top: 12px;
 }
 
 .container-page .Name-Site .Napoleon-comma {
-    font-size: 40px;
+    font-size: 44px;
     font-weight: 600;
-    margin-top: 1px;
-    margin-left: -5px;
-    margin-right: -4px;
+    margin-top: 7px;
+    margin-left: -3px;
+    margin-right: -2px;
 }
 
 .container-page .Name-Site .Napoleon-s {
     font-size: 31px;
     font-weight: 600;
-    margin-top: 9px;
+    margin-top: 12px;
 }
 
 .container-page .Name-Site .Car-C {
     font-size: 29px;
     font-weight: 600;
     margin-left: 15px;
-    margin-top: 10px;
+    margin-top: 12px;
 }
 
 .container-page .Name-Site .Car-a {
     font-size: 34px;
     font-weight: 600;
-    margin-top: 1.45px;
+    margin-top: 3.45px;
 }
 
 .container-page .Name-Site .Car-r {
     font-size: 30px;
     font-weight: 600;
-    margin-top: 8.7px;
+    margin-top: 10.7px;
 }
 
 .container-page .Name-Site .Repair-R {
     margin-left: 15px;
     font-size: 29.1px;
     font-weight: 600;
-    margin-top: 10px;
+    margin-top: 11px;
 }
 
 .container-page .Name-Site .Repair-e {
@@ -217,7 +217,7 @@ body {
 .container-page .Name-Site .Repair-i {
     font-size: 43.5px;
     font-weight: 600;
-    margin-top: 12px;
+    margin-top: 10.5px;
 }
 
 .container-page .Name-Site .Repair-r {
@@ -230,23 +230,22 @@ body {
     font-size: 64px;
     font-weight: 600;
     margin-left: 15px;
-    margin-top: 5px;
 }
 
 .container-page .Name-Site .Shop-h {
     font-size: 55.5px;
     font-weight: 600;
-    margin-top: 17px;
+    margin-top: 12px;
 }
 
 .container-page .Name-Site .Shop-o {
     font-size: 78px;
     font-weight: 600;
-    margin-top: 4px;
+    margin-top: -1px;
 }
 
 .container-page .Name-Site .Shop-p {
     font-size: 70px;
     font-weight: 600;
-    margin-top: 19px;
+    margin-top: 14px;
 }
