@@ -10,7 +10,7 @@ body {
 
 .container-page {
     background-color: rgb(241, 234, 234);
-    margin: 20px 40px;
+    margin: 20px auto;
     width: 100%;
     height: 768px;
     max-width: 1800px;
@@ -99,4 +99,154 @@ body {
     border: 2px solid #2c3e50 !important;
     padding: 6px;
     border-radius: 8px;
+}
+
+.container-page .Name-Site {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 120px;
+}
+
+.container-page .Name-Site .Napoleon-N {
+    font-size: 110px;
+    font-weight: 600;
+}
+
+.container-page .Name-Site .Napoleon-a {
+    font-size: 57px;
+    font-weight: 600;
+    margin-top: 16px;
+}
+
+.container-page .Name-Site .Napoleon-p {
+    font-size: 64px;
+    font-weight: 600;
+    margin-top: 3px;
+}
+
+.container-page .Name-Site .Napoleon-1-o {
+    font-size: 46px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.container-page .Name-Site .Napoleon-l {
+    font-size: 53px;
+    font-weight: 600;
+    margin-top: 2.5px;
+}
+
+.container-page .Name-Site .Napoleon-e {
+    font-size: 39px;
+    font-weight: 600;
+    margin-top: 13px;
+}
+
+.container-page .Name-Site .Napoleon-2-o {
+    font-size: 42px;
+    font-weight: 600;
+    margin-top: 2px;
+}
+
+.container-page .Name-Site .Napoleon-n {
+    font-size: 31px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.container-page .Name-Site .Napoleon-comma {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 1px;
+    margin-left: -5px;
+    margin-right: -4px;
+}
+
+.container-page .Name-Site .Napoleon-s {
+    font-size: 31px;
+    font-weight: 600;
+    margin-top: 9px;
+}
+
+.container-page .Name-Site .Car-C {
+    font-size: 29px;
+    font-weight: 600;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.container-page .Name-Site .Car-a {
+    font-size: 34px;
+    font-weight: 600;
+    margin-top: 1.45px;
+}
+
+.container-page .Name-Site .Car-r {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 8.7px;
+}
+
+.container-page .Name-Site .Repair-R {
+    margin-left: 15px;
+    font-size: 29.1px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.container-page .Name-Site .Repair-e {
+    font-size: 40.5px;
+    font-weight: 600;
+    margin-top: 2px;
+}
+
+.container-page .Name-Site .Repair-p {
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 11.6px;
+}
+
+.container-page .Name-Site .Repair-a {
+    font-size: 51.2px;
+    font-weight: 600;
+    margin-top: 2px;
+}
+
+.container-page .Name-Site .Repair-i {
+    font-size: 43.5px;
+    font-weight: 600;
+    margin-top: 12px;
+}
+
+.container-page .Name-Site .Repair-r {
+    font-size: 58px;
+    font-weight: 600;
+    margin-top: 1.2px;
+}
+
+.container-page .Name-Site .Shop-S {
+    font-size: 64px;
+    font-weight: 600;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.container-page .Name-Site .Shop-h {
+    font-size: 55.5px;
+    font-weight: 600;
+    margin-top: 17px;
+}
+
+.container-page .Name-Site .Shop-o {
+    font-size: 78px;
+    font-weight: 600;
+    margin-top: 4px;
+}
+
+.container-page .Name-Site .Shop-p {
+    font-size: 70px;
+    font-weight: 600;
+    margin-top: 19px;
 }
