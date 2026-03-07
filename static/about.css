@@ -1,0 +1,559 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5f7fa;
+}
+
+.container-page {
+    background-color: white;
+    margin: 20px auto;
+    width: 100%;
+    height: 3425px;
+    max-width: 1800px;
+    top: -394.2px;
+    left: 11844px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.container-page .header {
+    display: flex;
+    position: relative;
+    width: 1710px;
+    max-width: 1740;
+    height: 68px;
+    top: 20px;
+    left: 55px;
+    justify-content: space-between;
+    border-radius: 12px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    z-index: 3;
+}
+
+.container-page .header .Main a , .Personal-account a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 75%;
+    background: linear-gradient(45deg, #ffffff, #080808);
+    color: black;
+    border: 5px solid #2c3e50 !important;
+    padding: 12px;
+    border-radius: 50px;
+}
+
+.container-page .header .Shopping-cart a , .Repair a {
+    text-decoration: none;
+    font-weight: 620;
+    font-size: 26px;
+    line-height: 90%;
+    background: linear-gradient(45deg, #313131, #ffffffd2);
+    color: black;
+    border: 3px solid #2c3e50 !important;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+.container-page .header .News a , .Prices a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 90%;
+    color: black;
+    background: linear-gradient(75deg, #f7f7f7, #3b3b3b);
+    border: 4px solid #2c3e50 !important;
+    padding: 8px;
+    border-radius: 26px;
+}
+
+.container-page .header .Online-registration a , .Discounts a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 105%;
+    color: black;
+    background: linear-gradient(90deg, #494949, #f0f0f0);
+    border: 2px solid #2c3e50 !important;
+    padding: 7px;
+    border-radius: 9px;
+}
+
+.container-page .header .Reviews a, .Contacts a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    background: linear-gradient(105deg, #eeeeee, #444444);
+    color: black;
+    border: 4px solid #2c3e50 !important;
+    padding: 6px;
+    border-radius: 26px;
+}
+
+.container-page .header .About-us a , .Ours-works a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140%;
+    color: black;
+    background: linear-gradient(120deg, #535353, rgb(233, 233, 233));
+    border: 2px solid #2c3e50 !important;
+    padding: 6px;
+    border-radius: 8px;
+}
+
+.container-page .Name-Site {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 120px;
+}
+
+.container-page .Name-Site .Napoleon-N {
+    font-size: 110px;
+    font-weight: 600;
+}
+
+.container-page .Name-Site .Napoleon-a {
+    font-size: 57px;
+    font-weight: 600;
+    margin-top: 16px;
+}
+
+.container-page .Name-Site .Napoleon-p {
+    font-size: 64px;
+    font-weight: 600;
+    margin-top: 3px;
+}
+
+.container-page .Name-Site .Napoleon-1-o {
+    font-size: 46px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.container-page .Name-Site .Napoleon-l {
+    font-size: 53px;
+    font-weight: 600;
+    margin-top: 4px;
+}
+
+.container-page .Name-Site .Napoleon-e {
+    font-size: 39px;
+    font-weight: 600;
+    margin-top: 13px;
+}
+
+.container-page .Name-Site .Napoleon-2-o {
+    font-size: 42px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.container-page .Name-Site .Napoleon-n {
+    font-size: 31px;
+    font-weight: 600;
+    margin-top: 12px;
+}
+
+.container-page .Name-Site .Napoleon-comma {
+    font-size: 44px;
+    font-weight: 600;
+    margin-top: 7px;
+    margin-left: -3px;
+    margin-right: -2px;
+}
+
+.container-page .Name-Site .Napoleon-s {
+    font-size: 31px;
+    font-weight: 600;
+    margin-top: 12px;
+}
+
+.container-page .Name-Site .Car-C {
+    font-size: 29px;
+    font-weight: 600;
+    margin-left: 15px;
+    margin-top: 12px;
+}
+
+.container-page .Name-Site .Car-a {
+    font-size: 34px;
+    font-weight: 600;
+    margin-top: 3.45px;
+}
+
+.container-page .Name-Site .Car-r {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 10.7px;
+}
+
+.container-page .Name-Site .Repair-R {
+    margin-left: 15px;
+    font-size: 29.1px;
+    font-weight: 600;
+    margin-top: 11px;
+}
+
+.container-page .Name-Site .Repair-e {
+    font-size: 40.5px;
+    font-weight: 600;
+    margin-top: 2px;
+}
+
+.container-page .Name-Site .Repair-p {
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 11.6px;
+}
+
+.container-page .Name-Site .Repair-a {
+    font-size: 51.2px;
+    font-weight: 600;
+    margin-top: 2px;
+}
+
+.container-page .Name-Site .Repair-i {
+    font-size: 43.5px;
+    font-weight: 600;
+    margin-top: 10.5px;
+}
+
+.container-page .Name-Site .Repair-r {
+    font-size: 58px;
+    font-weight: 600;
+    margin-top: 1.2px;
+}
+
+.container-page .Name-Site .Shop-S {
+    font-size: 64px;
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+.container-page .Name-Site .Shop-h {
+    font-size: 55.5px;
+    font-weight: 600;
+    margin-top: 12px;
+}
+
+.container-page .Name-Site .Shop-o {
+    font-size: 78px;
+    font-weight: 600;
+    margin-top: -1px;
+}
+
+.container-page .Name-Site .Shop-p {
+    font-size: 70px;
+    font-weight: 600;
+    margin-top: 14px;
+}
+
+.about-container {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 0 30px;
+    position: relative;
+    top: 150px;
+    margin-bottom: 120px;
+}
+
+.about-header {
+    margin-bottom: 40px;
+    background: white;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+    border: 3px solid #2c3e50;
+}
+
+.about-header h1 {
+    font-size: 5.04rem;
+    font-weight: 600;
+    color: #1a2a3a;
+    letter-spacing: -0.5px;
+    margin-bottom: 10px;
+    border-left: 6px solid #e63946;
+    padding-left: 20px;
+}
+
+.about-subtitle {
+    font-size: 2.16rem;
+    color: #5a6f84;
+    margin-left: 26px;
+}
+
+.about-section,
+.about-advantages-section,
+.about-scheme-section,
+.about-partner-section,
+.about-master-section,
+.about-contact-section {
+    margin-bottom: 60px;
+}
+
+.about-section h2,
+.about-advantages-section h2,
+.about-scheme-section h2,
+.about-partner-section h2,
+.about-master-section h2,
+.about-contact-section h2 {
+    font-size: 3.6rem;
+    font-weight: 500;
+    color: #1e2f3f;
+    margin-bottom: 30px;
+    position: relative;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+.about-section h2:after,
+.about-advantages-section h2:after,
+.about-partner-section h2:after,
+.about-master-section h2:after,
+.about-contact-section h2:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(90deg, #e63946, #3a86ff);
+}
+
+.about-content-box,
+.about-partner-card,
+.about-master-card {
+    background: white;
+    padding: 35px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    border: 1px solid #eaeef2;
+}
+
+.about-lead {
+    font-size: 2.16rem;
+    font-weight: 400;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    line-height: 1.7;
+}
+
+.about-content-box p {
+    color: #4a5c6e;
+    margin-bottom: 15px;
+}
+
+.about-advantages-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.about-advantage-card {
+    background: white;
+    padding: 25px;
+    border-radius: 14px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.03);
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: 1px solid #edf2f7;
+    border-top: 3px solid #e63946;
+}
+
+.about-advantage-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.08);
+}
+
+.about-advantage-icon {
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+}
+
+.about-advantage-card h3 {
+    font-size: 2.34rem;
+    font-weight: 600;
+    color: #1e2f3f;
+    margin-bottom: 12px;
+}
+
+.about-advantage-card p {
+    color: #4a5c6e;
+    font-size: 1.71rem;
+}
+
+.about-scheme-section {
+    background: linear-gradient(145deg, #1e2f3f, #152432);
+    padding: 40px;
+    border-radius: 20px;
+    color: white;
+}
+
+.about-scheme-section h2 {
+    color: white;
+}
+
+.about-scheme-section h2:after {
+    background: linear-gradient(90deg, #ff9f1c, #e63946);
+}
+
+.about-scheme-steps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.about-step {
+    flex: 1;
+    min-width: 160px;
+    text-align: center;
+    padding: 20px 15px;
+    background: rgba(255,255,255,0.08);
+    border-radius: 12px;
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255,255,255,0.1);
+}
+
+.about-step-number {
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(145deg, #e63946, #c92e3a);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin: 0 auto 15px;
+    font-size: 1.2rem;
+    box-shadow: 0 5px 10px rgba(230,57,70,0.3);
+}
+
+.about-step h3 {
+    color: white;
+    font-size: 1.98rem;
+    margin-bottom: 8px;
+}
+
+.about-step p {
+    color: rgba(255,255,255,0.7);
+    font-size: 1.62rem;
+}
+
+.about-partner-card p {
+    font-size: 1.98rem;
+    color: #2c3e50;
+}
+
+.about-partner-card ul {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+.about-partner-card li {
+    margin-bottom: 12px;
+    color: #2c3e50;
+    font-size: 1.98rem;
+}
+
+.about-partner-note {
+    background: #f0f7ff;
+    padding: 15px 20px;
+    border-radius: 10px;
+    color: #1e2f3f;
+    font-style: italic;
+    border-left: 4px solid #3a86ff;
+    font-size: 1.98rem;
+}
+
+.about-partner-card {
+    border-left: 6px solid #3a86ff;
+}
+
+.about-master-card {
+    background: linear-gradient(145deg, #ffffff, #fafcfd);
+}
+
+.about-master-info h3 {
+    font-size: 2.34rem;
+    color: #1e2f3f;
+    margin-bottom: 15px;
+}
+
+.about-master-info p {
+    font-size: 1.98rem;
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+.about-master-info ul {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+.about-master-info li {
+    color: #2c3e50;
+    margin-bottom: 8px;
+    font-size: 1.98rem;
+}
+
+.about-contact-section {
+    background: linear-gradient(145deg, #2c3e50, #1e2f3f);
+    padding: 40px;
+    border-radius: 20px;
+    color: white;
+}
+
+.about-contact-section h2 {
+    color: white;
+}
+
+.about-contact-section h2:after {
+    background: linear-gradient(90deg, #ff9f1c, #e63946);
+}
+
+.about-contact-info {
+    margin: 25px 0;
+    font-size: 1.98rem;
+}
+
+.about-contact-info p {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.about-contact-info strong {
+    color: #ff9f1c;
+    min-width: 120px;
+}
+
+.about-note {
+    background: rgba(255,255,255,0.1);
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255,0.15);
+}
+
+.about-note p {
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 1.98rem;
+}
+
+.about-note p:last-child {
+    margin-bottom: 0;
+}
