@@ -1,0 +1,83 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты</title>
+    <link rel="stylesheet" href="{% static 'Contacts.css' %}">
+</head>
+<body>
+    <div class="container-page">
+        <div class="header">
+            <div class="Main">
+                <a href="/">𐌲᧘ᥲʙнᥲя</a>
+            </div>
+            <div class="Repair">
+                <a href="{% url 'Ремонт' %}">Рᥱʍ᧐нᴛ</a>
+            </div>
+            <div class="Prices">
+                <a href="{% url 'Цены' %}">Цᥱны</a>
+            </div>
+            <div class="Online-registration">
+                <a href="{% url 'Запись онлайн' %}">Зᥲᥰᥙᥴь ᧐н᧘ᥲйн</a>
+            </div>
+            <div class="Contacts">
+                <a href="">К᧐нᴛᥲκᴛы</a>
+            </div>
+            <div class="About-us">
+                <a href="{% url 'О нас' %}">О нᥲᥴ</a>
+            </div>
+            <div class="Ours-works">
+                <a href="{% url 'Наши работы' %}">Нᥲɯᥙ ρᥲδ᧐ᴛы</a>
+            </div>
+            <div class="Reviews">
+                <a href="{% url 'Отзывы' %}">Оᴛɜыʙы</a>
+            </div>
+            <div class="Discounts">
+                <a href="{% url 'Скидки' %}">Сκᥙдκᥙ</a>
+            </div>
+            <div class="News">
+                <a href="{% url 'Новости' %}">Н᧐ʙ᧐ᥴᴛᥙ</a>
+            </div>
+            <div class="Shopping-cart">
+                <a href="{% url 'Корзина' %}">К᧐ρɜᥙнᥲ</a>
+            </div>
+            <div class="Personal-account">
+                <a href="{% url 'Личный кабинет' %}">Лᥙчный κᥲδᥙнᥱᴛ</a>
+            </div>
+        </div>
+        <div class="Name-Site">
+            <p class="Name-Site-Text"><p class="Napoleon-N">🅝</p><p class="Napoleon-a">ⓐ</p><p class="Napoleon-p">🅟</p><p class="Napoleon-1-o">ⓞ</p><p class="Napoleon-l">🅛</p><p class="Napoleon-e">ⓔ</p><p class="Napoleon-2-o">🅞</p><p class="Napoleon-n">ⓝ</p><p class="Napoleon-comma">'</p><p class="Napoleon-s">ⓢ</p> <p class="Car-C">Ⓒ</p><p class="Car-a">🅐</p><p class="Car-r">ⓡ</p> <p class="Repair-R">Ⓡ</p><p class="Repair-e">🅔</p><p class="Repair-p">ⓟ</p><p class="Repair-a">🅐</p><p class="Repair-i">ⓘ</p><p class="Repair-r">🅡</p> <p class="Shop-S">🅢</p><p class="Shop-h">ⓗ</p><p class="Shop-o">🅞</p><p class="Shop-p">ⓟ</p></p>
+        </div>
+        <div class="map-section">
+            <h2>Как нас найти</h2>
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2894.0642469178706!2d39.89110667676449!3d43.50099527110972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40f5c725705135dd%3A0x9264510050fc0247!2z0YPQuy4g0JDQv9GI0LXRgNC-0L3RgdC60LDRjywgNzgsINCh0L7Rh9C4LCDQmtGA0LDRgdC90L7QtNCw0YDRgdC60LjQuSDQutGA0LDQuSwgMzU0MDY2!5e0!3m2!1sru!2sru!4v1772892667216!5m2!1sru!2sru" 
+                    width="100%" 
+                    height="600" 
+                    style="border:0;"
+                    allowfullscreen="" 
+                    loading="lazy"
+                    title="Карта проезда">
+                </iframe>
+            </div>
+        </div>
+        <div class="address-section">
+            <div class="address-card">
+                <h3>Наш адрес</h3>
+                <p class="address-text">Сочи, Кудепста, Апшеронская улица, 78</p>
+                <p class="address-detail">Гараж на базе таксопарка</p>
+            </div>
+            
+            <div class="contact-card">
+                <h3>Контактная информация</h3>
+                <p class="phone">📞 +7 (988) 167-66-04</p>
+                <p class="work-time">🕒 Ежедневно с 9:00 до 20:00</p>
+                <p class="note">Запись желательна</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

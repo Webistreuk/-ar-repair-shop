@@ -1,0 +1,364 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5f7fa;
+}
+
+.container-page {
+    background-color: white;
+    margin: 20px auto;
+    width: 100%;
+    height: 1800px;
+    max-width: 1800px;
+    top: -394.2px;
+    left: 11844px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.container-page .header {
+    display: flex;
+    position: relative;
+    width: 1710px;
+    max-width: 1740;
+    height: 68px;
+    top: 20px;
+    left: 55px;
+    justify-content: space-between;
+    border-radius: 12px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    z-index: 3;
+}
+
+.container-page .header .Main a , .Personal-account a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 75%;
+    background: linear-gradient(45deg, #ffffff, #080808);
+    color: black;
+    border: 5px solid #2c3e50 !important;
+    padding: 12px;
+    border-radius: 50px;
+}
+
+.container-page .header .Shopping-cart a , .Repair a {
+    text-decoration: none;
+    font-weight: 620;
+    font-size: 26px;
+    line-height: 90%;
+    background: linear-gradient(45deg, #313131, #ffffffd2);
+    color: black;
+    border: 3px solid #2c3e50 !important;
+    padding: 9px;
+    border-radius: 10px;
+}
+
+.container-page .header .News a , .Prices a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 90%;
+    color: black;
+    background: linear-gradient(75deg, #f7f7f7, #3b3b3b);
+    border: 4px solid #2c3e50 !important;
+    padding: 8px;
+    border-radius: 26px;
+}
+
+.container-page .header .Online-registration a , .Discounts a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 105%;
+    color: black;
+    background: linear-gradient(90deg, #494949, #f0f0f0);
+    border: 2px solid #2c3e50 !important;
+    padding: 7px;
+    border-radius: 9px;
+}
+
+.container-page .header .Reviews a, .Contacts a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    background: linear-gradient(105deg, #eeeeee, #444444);
+    color: black;
+    border: 4px solid #2c3e50 !important;
+    padding: 6px;
+    border-radius: 26px;
+}
+
+.container-page .header .About-us a , .Ours-works a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140%;
+    color: black;
+    background: linear-gradient(120deg, #535353, rgb(233, 233, 233));
+    border: 2px solid #2c3e50 !important;
+    padding: 6px;
+    border-radius: 8px;
+}
+
+.container-page .Name-Site {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 120px;
+}
+
+.container-page .Name-Site .Napoleon-N {
+    font-size: 110px;
+    font-weight: 600;
+}
+
+.container-page .Name-Site .Napoleon-a {
+    font-size: 57px;
+    font-weight: 600;
+    margin-top: 16px;
+}
+
+.container-page .Name-Site .Napoleon-p {
+    font-size: 64px;
+    font-weight: 600;
+    margin-top: 3px;
+}
+
+.container-page .Name-Site .Napoleon-1-o {
+    font-size: 46px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.container-page .Name-Site .Napoleon-l {
+    font-size: 53px;
+    font-weight: 600;
+    margin-top: 4px;
+}
+
+.container-page .Name-Site .Napoleon-e {
+    font-size: 39px;
+    font-weight: 600;
+    margin-top: 13px;
+}
+
+.container-page .Name-Site .Napoleon-2-o {
+    font-size: 42px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.container-page .Name-Site .Napoleon-n {
+    font-size: 31px;
+    font-weight: 600;
+    margin-top: 12px;
+}
+
+.container-page .Name-Site .Napoleon-comma {
+    font-size: 44px;
+    font-weight: 600;
+    margin-top: 7px;
+    margin-left: -3px;
+    margin-right: -2px;
+}
+
+.container-page .Name-Site .Napoleon-s {
+    font-size: 31px;
+    font-weight: 600;
+    margin-top: 12px;
+}
+
+.container-page .Name-Site .Car-C {
+    font-size: 29px;
+    font-weight: 600;
+    margin-left: 15px;
+    margin-top: 12px;
+}
+
+.container-page .Name-Site .Car-a {
+    font-size: 34px;
+    font-weight: 600;
+    margin-top: 3.45px;
+}
+
+.container-page .Name-Site .Car-r {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 10.7px;
+}
+
+.container-page .Name-Site .Repair-R {
+    margin-left: 15px;
+    font-size: 29.1px;
+    font-weight: 600;
+    margin-top: 11px;
+}
+
+.container-page .Name-Site .Repair-e {
+    font-size: 40.5px;
+    font-weight: 600;
+    margin-top: 2px;
+}
+
+.container-page .Name-Site .Repair-p {
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 11.6px;
+}
+
+.container-page .Name-Site .Repair-a {
+    font-size: 51.2px;
+    font-weight: 600;
+    margin-top: 2px;
+}
+
+.container-page .Name-Site .Repair-i {
+    font-size: 43.5px;
+    font-weight: 600;
+    margin-top: 10.5px;
+}
+
+.container-page .Name-Site .Repair-r {
+    font-size: 58px;
+    font-weight: 600;
+    margin-top: 1.2px;
+}
+
+.container-page .Name-Site .Shop-S {
+    font-size: 64px;
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+.container-page .Name-Site .Shop-h {
+    font-size: 55.5px;
+    font-weight: 600;
+    margin-top: 12px;
+}
+
+.container-page .Name-Site .Shop-o {
+    font-size: 78px;
+    font-weight: 600;
+    margin-top: -1px;
+}
+
+.container-page .Name-Site .Shop-p {
+    font-size: 70px;
+    font-weight: 600;
+    margin-top: 14px;
+}
+
+.map-section {
+    margin-top: 375px;
+    padding: 0 50px;
+}
+
+.map-section h2 {
+    margin-bottom: 150px;
+    font-size: 75px;
+    margin-left: 580px;
+    color: #2c3e50;
+    max-width: 500px;
+}
+
+.map-container {
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    border: 5px solid #2c3e50;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.map-container iframe {
+    display: block;
+    width: 100%;
+    height: 600px;
+}
+
+.address-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-top: 40px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+}
+
+.address-card, .contact-card {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    border: 1px solid #e0e0e0;
+    transition: transform 0.3s ease;
+}
+
+.address-card:hover, .contact-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.address-card, .contact-card {
+    border-color: #080808;
+    border-width: 4px;
+}
+
+.address-card h3, .contact-card h3 {
+    font-size: 2.7rem;
+    color: #2c3e50;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #e63946;
+}
+
+.address-text {
+    font-size: 2.16rem;
+    color: #2c3e50;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.address-detail {
+    font-size: 1.8rem;
+    color: #7f8c8d;
+    font-style: italic;
+}
+
+.phone {
+    font-size: 2.34rem;
+    color: #2c3e50;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.work-time {
+    font-size: 1.98rem;
+    color: #2c3e50;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.note {
+    font-size: 1.8rem;
+    color: #2c3e50;
+    font-weight: 500;
+    background: #fff3cd;
+    padding: 10px 15px;
+    border-radius: 8px;
+    display: inline-block;
+}
