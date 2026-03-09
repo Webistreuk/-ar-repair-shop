@@ -28,7 +28,7 @@ def prices(request):
     return render(request, 'prices.html')
 
 def repair(request):
-    return render(request, 'prices.html')
+    return render(request, 'repair.html')
 
 def reviews(request):
     return render(request, 'Reviews.html')
