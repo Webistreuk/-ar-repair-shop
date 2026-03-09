@@ -1,0 +1,76 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Наши услуги по ремонту автомобилей</title>
+    <link rel="stylesheet" href="{% static 'repair.css' %}">
+</head>
+<body>
+    <div class="container-page">
+        <div class="header">
+            <div class="Main">
+                <a href="/">𐌲᧘ᥲʙнᥲя</a>
+            </div>
+            <div class="Repair">
+                <a href="">Рᥱʍ᧐нᴛ</a>
+            </div>
+            <div class="Prices">
+                <a href="{% url 'Цены' %}">Цᥱны</a>
+            </div>
+            <div class="Online-registration">
+                <a href="{% url 'Запись онлайн' %}">Зᥲᥰᥙᥴь ᧐н᧘ᥲйн</a>
+            </div>
+            <div class="Contacts">
+                <a href="{% url 'Контакты' %}">К᧐нᴛᥲκᴛы</a>
+            </div>
+            <div class="About-us">
+                <a href="{% url 'О нас' %}">О нᥲᥴ</a>
+            </div>
+            <div class="Ours-works">
+                <a href="{% url 'Наши работы' %}">Нᥲɯᥙ ρᥲδ᧐ᴛы</a>
+            </div>
+            <div class="Reviews">
+                <a href="{% url 'Отзывы' %}">Оᴛɜыʙы</a>
+            </div>
+            <div class="Discounts">
+                <a href="{% url 'Скидки' %}">Сκᥙдκᥙ</a>
+            </div>
+            <div class="News">
+                <a href="{% url 'Новости' %}">Н᧐ʙ᧐ᥴᴛᥙ</a>
+            </div>
+            <div class="Shopping-cart">
+                <a href="{% url 'Корзина' %}">К᧐ρɜᥙнᥲ</a>
+            </div>
+            <div class="Personal-account">
+                <a href="{% url 'Личный кабинет' %}">Лᥙчный κᥲδᥙнᥱᴛ</a>
+            </div>
+        </div>
+
+        <div class="Name-Site">
+            <p class="Name-Site-Text"><p class="Napoleon-N">🅝</p><p class="Napoleon-a">ⓐ</p><p class="Napoleon-p">🅟</p><p class="Napoleon-1-o">ⓞ</p><p class="Napoleon-l">🅛</p><p class="Napoleon-e">ⓔ</p><p class="Napoleon-2-o">🅞</p><p class="Napoleon-n">ⓝ</p><p class="Napoleon-comma">'</p><p class="Napoleon-s">ⓢ</p> <p class="Car-C">Ⓒ</p><p class="Car-a">🅐</p><p class="Car-r">ⓡ</p> <p class="Repair-R">Ⓡ</p><p class="Repair-e">🅔</p><p class="Repair-p">ⓟ</p><p class="Repair-a">🅐</p><p class="Repair-i">ⓘ</p><p class="Repair-r">🅡</p> <p class="Shop-S">🅢</p><p class="Shop-h">ⓗ</p><p class="Shop-o">🅞</p><p class="Shop-p">ⓟ</p></p>
+        </div>
+
+        <div class="main">
+            <div class="repair-work">
+                <p class="text-types-repair">Виды и стоимость ремонта различных деталей</p>
+                <form action="{% url 'Ремонт' %}">
+                    {% csrf_token %}
+                    <p class="check-type">
+                        Виды ремонтных работ:<br/>
+                        <select name="types-of-repair-work" class="types-of-repair-work">
+                            <option value="engine">Двигатель</option>
+                            <option value="transmission">Трансмиссия</option>
+                            <option value="running-gear">Ходовая часть</option>
+                            <option value="brake-system">Тормозная система</option>
+                            <option value="Body-repair">Кузовной ремонт</option>
+                            <option value="electrics">Электрика</option>
+                        </select>
+                    </p>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
