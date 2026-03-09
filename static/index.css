@@ -52,7 +52,7 @@ body {
     font-weight: 620;
     font-size: 26px;
     line-height: 90%;
-    background: linear-gradient(45deg, #313131, #ffffffd2);
+    /* background: linear-gradient(45deg, #313131, #ffffffd2); */
     color: black;
     border: 3px solid #2c3e50 !important;
     padding: 9px;
@@ -77,7 +77,7 @@ body {
     font-size: 22px;
     line-height: 105%;
     color: black;
-    background: linear-gradient(90deg, #494949, #f0f0f0);
+    /* background: linear-gradient(90deg, #494949, #f0f0f0); */
     border: 2px solid #2c3e50 !important;
     padding: 7px;
     border-radius: 9px;
@@ -101,7 +101,7 @@ body {
     font-size: 18px;
     line-height: 140%;
     color: black;
-    background: linear-gradient(120deg, #535353, rgb(233, 233, 233));
+    /* background: linear-gradient(120deg, #535353, rgb(233, 233, 233)); */
     border: 2px solid #2c3e50 !important;
     padding: 6px;
     border-radius: 8px;
